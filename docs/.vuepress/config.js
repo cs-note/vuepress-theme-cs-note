@@ -44,6 +44,7 @@ module.exports = {
       md.use(require('markdown-it-regexp'))
       md.use(require('markdown-it-sub'))
       md.use(require('markdown-it-sup'))
+      md.use(require('markdown-it-task-lists'))
     }
   }
 }
