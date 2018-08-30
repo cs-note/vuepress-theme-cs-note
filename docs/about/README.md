@@ -1,8 +1,10 @@
 ---
 title: about
-features:
-- title: bananaappletw
+tagline: about
+layout: AboutLayout
+contributors:
+- name: bananaappletw
   details: 海參 _(:3」∠)_
-- title: 10hsin
+- name: 10hsin
   details: 石心
 ---
