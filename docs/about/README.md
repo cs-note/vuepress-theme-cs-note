@@ -1,5 +1,5 @@
 ---
-home: true
+title: about
 features:
 - title: bananaappletw
   details: 海參 _(:3」∠)_

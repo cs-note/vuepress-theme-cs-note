@@ -1,11 +1,12 @@
 ---
 home: true
 heroImage: /hero.png
+layout: HomeLayout
 actionText: Get Started →
 actionLink: /about/
-features:
+categories:
 - title: Data structure
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+  details: data structure
   link: /data-structure/
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
