@@ -31,5 +31,18 @@ module.exports = {
       link: '/about/',
     }
     ],
+  },
+  markdown: {
+    config: md => {
+      md.use(require('markdown-it-abbr'))
+      md.use(require('markdown-it-deflist'))
+      md.use(require('markdown-it-imsize'))
+      md.use(require('markdown-it-ins'))
+      md.use(require('markdown-it-mark'))
+      md.use(require('markdown-it-mathjax'))
+      md.use(require('markdown-it-regexp'))
+      md.use(require('markdown-it-sub'))
+      md.use(require('markdown-it-sup'))
+    }
   }
 }
