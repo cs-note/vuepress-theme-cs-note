@@ -8,5 +8,5 @@ categories:
 - title: Data structure
   details: data structure
   link: /data-structure/
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2018-present CS note
 ---

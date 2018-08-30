@@ -28,7 +28,9 @@
         class="category"
         v-for="category in data.categories"
       >
-        <h2>{{ category.title }}</h2>
+      <h2>
+      <a :href="category.link">{{ category.title }}</a>
+      </h2>
         <p>{{ category.details }}</p>
       </div>
     </div>
