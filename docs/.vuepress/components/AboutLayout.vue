@@ -28,7 +28,15 @@
         class="contributor"
         v-for="contributor in data.contributors"
       >
-        <h2>{{ contributor.title }}</h2>
+
+       <h2>{{ contributor.name }}</h2>
+       <img
+        v-if="contributor.avatar"
+        :src="$withBase(contributor.avatar)"
+        alt="avatar"
+        height="100"
+        width="100"
+       >
         <p>{{ contributor.details }}</p>
       </div>
     </div>
