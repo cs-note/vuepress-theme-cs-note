@@ -31,6 +31,7 @@ module.exports = {
       link: '/about/',
     }
     ],
+    sidebar: 'auto',
   },
   markdown: {
     config: md => {
