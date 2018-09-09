@@ -54,3 +54,22 @@ Here `c` is stored on the stack. In `f2` there *might* be a temporary (object wi
 | insert | O(number of inserted elements) + O(number of elements after insert position) |
 | erase | O(number of erased elements) + O(number of elements after erased position) |
 
+## list
+
+list 使用 doubly-linked list 實作，insert 和 erase 都是constant time，
+
+### Time complexity
+
+| Operation | Big O |
+|-----------|--------------------------------------|
+| front | O(1) |
+| back | O(1) |
+| push_front | O(1) |
+| push_back | O(1) |
+| pop_front | O(1) |
+| pop_back | O(1) |
+| insert | O(number of inserted elements) |
+| erase | O(number of erased elements) |
+| sort | O(nlogn)，n is container size |
+| reverse | O(n)，n is container size |
+| unique | O(n-1)，n is container size |
