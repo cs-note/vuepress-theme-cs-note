@@ -17,8 +17,8 @@ categories:
 
 - title: Programming Language
   items:
-    - title: C and C++
-      link: /c-c++/
+    - title: C++
+      link: /cpp/
 
     - title: Object copy
       link: /object-copy/

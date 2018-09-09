@@ -1,5 +1,5 @@
 ---
-title: data-structure
+title: C++
 ---
 
 ## Introduction
@@ -13,7 +13,7 @@ Now this is cleared:
 
 With examples, to be a bit more visual:
 
-```c
+```cpp
 void f0() {
 		Class* c = new Class();
 }
@@ -26,7 +26,7 @@ void f1() {
 
 Here `c` (of type `Class*`) is stored on the stack and points to an object (of type `Class`) that is stored on the heap
 
-```c
+```cpp
 void f2() {
 		Class c = Class();
 }
@@ -37,6 +37,5 @@ void f3() {
 ```
 
 Here `c` is stored on the stack. In `f2` there *might* be a temporary (object without name) created by the expression `Class()` and then copied into `c` (depending on whether the compiler elides the copy or not), the storage of temporaries is not addressed by the Standard... they commonly use the stack though.
-
 
 [Ref](https://stackoverflow.com/a/8755644/4446356)
