@@ -20,6 +20,8 @@ categories:
     - title: C++
       link: /cpp/
 
+- title: Concept
+  items:
     - title: Object copy
       link: /object-copy/
 
