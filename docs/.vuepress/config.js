@@ -35,7 +35,6 @@ module.exports = {
   },
   markdown: {
     config: md => {
-      md.use(require('markdown-it-abbr'))
       md.use(require('markdown-it-deflist'))
       md.use(require('markdown-it-imsize'))
       md.use(require('markdown-it-ins'))
