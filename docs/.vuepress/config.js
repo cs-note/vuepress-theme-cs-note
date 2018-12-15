@@ -12,38 +12,19 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
-  serviceWorker: true,
   themeConfig: {
-    repo: 'cs-note/vuepress-theme-cs-note',
+    repo: 'cs-note/cs-note',
     repoLabel: 'Contribute!',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last Updated',
     serviceWorker: {
-      updatePopup: {
-        message: "New content is available.",
-        buttonText: "Refresh"
-      }
+      updatePopup: true
     },
     nav: [
-    {
-      text: 'About',
-      link: '/about/',
-    }
+    { text: 'Home',link: '/' },
+    { text: 'About',link: '/about/' }
     ],
-    sidebar: 'auto',
-  },
-  markdown: {
-    config: md => {
-      md.use(require('markdown-it-deflist'))
-      md.use(require('markdown-it-imsize'))
-      md.use(require('markdown-it-ins'))
-      md.use(require('markdown-it-mark'))
-      md.use(require('markdown-it-mathjax'))
-      md.use(require('markdown-it-regexp'))
-      md.use(require('markdown-it-sub'))
-      md.use(require('markdown-it-sup'))
-      md.use(require('markdown-it-task-lists'))
-    }
+    sidebar: 'auto'
   }
 }

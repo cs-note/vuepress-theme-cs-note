@@ -1,29 +1,11 @@
 ---
 home: true
-heroImage: /hero.png
-layout: HomeLayout
-actionText: Get Started →
-actionLink: /about/
-categories:
-- title: Data structure
-  items:
-    - title: Data Structure
-      link: /data-structure/
-
-- title: Algorithm
-  items:
-    - title: Algorithm
-      link: /algorithm/
-
-- title: Programming Language
-  items:
-    - title: C++
-      link: /cpp/
-
-- title: Concept
-  items:
-    - title: Object copy
-      link: /object-copy/
-
+heroText: CS note
 footer: MIT Licensed | Copyright © 2018-present CS note
 ---
+
+<div class="post" v-for="post in $site.pages">
+  <router-link :to="post.path">
+    <h2>{{post.frontmatter.title}}</h2>
+  </router-link>
+</div>
